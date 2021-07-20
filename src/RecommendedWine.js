@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+
 
 const RecommendedWine = () => {
+
     return (
         <div>
-            <p>Recommended Wine</p>
+            <h1>Recommended Wine</h1>
         </div>
     )
 }
