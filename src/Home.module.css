@@ -1,0 +1,12 @@
+.div {
+    background: rgb(226, 222, 222);
+}
+
+.list {
+    margin: 15rem;
+    padding: 4rem;
+    list-style: none;
+    text-align: center;
+    font-size: 3rem;
+}
+

@@ -1,0 +1,14 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background: url('./img/fundo-header.jpg') no-repeat center;
+    top: 0px;
+  }
+
+.title {
+    color: rgb(226, 222, 222);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 5rem;
+}
