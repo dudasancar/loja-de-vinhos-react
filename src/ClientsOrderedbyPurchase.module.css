@@ -11,7 +11,16 @@
     color: rgb(58, 37, 37);
 }
 
-.options {
-    width: 8rem;
-    height: 2rem;
+.divlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
+.list {
+    list-style: none;
+    font-size: 2rem;
+    color: rgb(58, 37, 37);
+    padding: 2rem;
+}
+

@@ -1,9 +1,23 @@
-import React from 'react'
+import React from 'react';
+import api from './services/api';
+import styles from './BestClientOf2016.module.css';
 
 const BestClientOf2016 = () => {
+    const [cliente, setCliente] = React.useState();
+
+    React.useEffect(() => {
+     api.get("/bestClient")
+        .then((response) => setCliente(response.data))
+        .catch((err) => {
+            console.error("ops! ocorreu um erro" + err)
+        })
+    }, []);
+
     return (
-        <div>
-            <p>Best Client of 2016</p>
+        <div className={styles.all}>
+            <h1 className={styles.title}>Best Client of 2016: <span className={styles.name}>{cliente?.nome}</span></h1>
+            <p className={styles.biggest}>Biggest Purchase</p>
+            <p className={styles.total}>Total: {cliente?.valorTotal}</p>
         </div>
     )
 }

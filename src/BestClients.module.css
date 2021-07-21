@@ -11,7 +11,10 @@
     color: rgb(58, 37, 37);
 }
 
-.options {
-    width: 8rem;
-    height: 2rem;
+.list {
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(58, 37, 37);
+    padding: 2rem;
 }

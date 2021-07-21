@@ -2,12 +2,3 @@
     background:  rgb(58, 37, 37);
     height: 7rem;
 }
-
-.quote {
-    color: rgb(226, 222, 222);
-    font-size: 2rem;
-    margin: 0;
-    padding: 2rem;
-    display: flex;
-    justify-content: center;
-}

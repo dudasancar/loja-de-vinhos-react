@@ -1,0 +1,33 @@
+.all {
+    height: 25rem;
+    background: rgb(226, 222, 222);
+}
+
+.title {
+    margin: 0;
+    padding-top: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(58, 37, 37);
+}
+
+.name {
+    text-transform: uppercase;
+    color: green;
+}
+
+.biggest {
+    text-align: center;
+    color: rgb(58, 37, 37);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.total {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(58, 37, 37);
+}
