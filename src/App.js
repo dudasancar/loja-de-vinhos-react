@@ -5,7 +5,7 @@ import Home from './Home';
 import ClientsOrderedbyPurchase from './ClientsOrderedbyPurchase';
 import BestClientOf2016 from './BestClientOf2016';
 import BestClients from './BestClients';
-import RecommendedWine from './RecommendedWine';
+import RecommendWine from './RecommendWine';
 import { Route } from 'react-router-dom';
 import Footer from './Footer';
 
@@ -17,7 +17,7 @@ const App = () => {
                 <Route path="/clientsOrderedByPurchase" component={ClientsOrderedbyPurchase}/>
                 <Route path="/bestClient" component={BestClientOf2016}/>
                 <Route path="/bestClients" component={BestClients}/>
-                <Route path="/recommendedWine/:client" component={RecommendedWine}/>
+                <Route path="/recommendWine" component={RecommendWine}/>
             <Footer />           
         </div>
     )
