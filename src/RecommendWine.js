@@ -17,7 +17,6 @@ const RecommendedWine = () => {
 
   function handleChange(event) {
     const cpfFormatado = event.target.value.replace(/\D/g, "");
-    console.log(event);
     api
       .get(`/recommendWine/${cpfFormatado}`)
       .then((response) => setWine(response.data))
@@ -26,7 +25,7 @@ const RecommendedWine = () => {
       });
   }
 
-  console.log(clients);
+  console.log(wine);
   return (
     <div className={styles.all}>
       <h1 className={styles.title}>Recommend Wine</h1>

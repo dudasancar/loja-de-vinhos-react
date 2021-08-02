@@ -1,6 +1,6 @@
 .all {
     height: 40rem;
-    background: rgb(226, 222, 222);
+    background: #A69898;
 }
 
 .title {
@@ -8,7 +8,7 @@
     padding-top: 4rem;
     text-align: center;
     font-size: 3rem;
-    color: rgb(58, 37, 37);
+    color: #2F252E;
 }
 
 .options {
@@ -19,7 +19,7 @@
 .wine {
     text-align: center;
     font-size: 3rem;
-    color: rgb(58, 37, 37);
+    color: #2F252E;
     font-style: italic;
     margin: 0;
     padding-top: 6rem;
@@ -29,7 +29,7 @@
     list-style: none;
     text-align: center;
     font-size: 2rem;
-    color: rgb(58, 37, 37);
+    color: #2F252E;
     padding: 2rem;
     margin: 0;
 }

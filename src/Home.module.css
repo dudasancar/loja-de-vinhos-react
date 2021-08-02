@@ -1,5 +1,5 @@
 .div {
-    background: rgb(226, 222, 222);
+    background: #A69898;
 }
 
 .list {
@@ -10,11 +10,63 @@
     font-size: 3rem;
 }
 
-.list li {
-    padding: 2rem;
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
+
+.card1 {
+    background: #4036418a;
+    position: relative;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #221b21;
+    max-width: 460px;
+    height: 200px;
+    margin: 2rem;
+    padding-top: 5rem;
+}
+
+.card2 {
+    background: #4036418a;
+    position: relative;
+    flex: 1;
+    border-radius: 5px;
+    box-shadow: 0 0 3px #221b21;
+    max-width: 460px;
+    height: 200px;
+    margin: 2rem;
+    padding-top: 5rem;
+}
+
+.card3 {
+    background: #4036418a;
+    border-radius: 5px;
+    flex: 1;
+    box-shadow: 0 0 3px #221b21;
+    max-width: 460px;
+    height: 200px;
+    margin: 2rem;
+    padding-top: 5rem;
+}
+
+.card4 {
+    background: #4036418a;
+    border-radius: 5px;
+    flex: 1;
+    box-shadow: 0 0 3px #221b21;
+    max-width: 460px;
+    height: 200px;
+    margin: 2rem;
+    padding-top: 5rem;
+}
+
+
 
 .link {
     text-decoration: none;
-    color: rgb(58, 37, 37);
+    color: #2F252E;
 }
