@@ -22,7 +22,7 @@
     background: #4036418a;
     position: relative;
     flex: 1;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 3px #221b21;
     max-width: 460px;
     height: 200px;
@@ -34,7 +34,7 @@
     background: #4036418a;
     position: relative;
     flex: 1;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 3px #221b21;
     max-width: 460px;
     height: 200px;
@@ -44,7 +44,7 @@
 
 .card3 {
     background: #4036418a;
-    border-radius: 5px;
+    border-radius: 10px;
     flex: 1;
     box-shadow: 0 0 3px #221b21;
     max-width: 460px;
@@ -55,7 +55,7 @@
 
 .card4 {
     background: #4036418a;
-    border-radius: 5px;
+    border-radius: 10px;
     flex: 1;
     box-shadow: 0 0 3px #221b21;
     max-width: 460px;

@@ -26,6 +26,27 @@ const RecommendedWine = () => {
   }
 
   console.log(wine);
+  /* equivalentes
+  if(wine){
+    console.log('a condição é verdadeira')
+  } else {
+    console.log('a condicao nao é verdadeira.')
+  }
+
+  wine ? console.log('a condição é verdadeira') : console.log('a condição não é verdadeira') // if ternario
+*/
+
+  /*equivalentes
+if(wine){
+  console.log('vinho é verdadeiro');
+} else {
+  return null
+}
+
+  wine ? console.log('vinho é verdadeiro'): null;
+  wine && console.log('vinho é verdadeiro') // short form
+  */
+
   return (
     <div className={styles.all}>
       <h1 className={styles.title}>Recommend Wine</h1>
@@ -36,15 +57,15 @@ const RecommendedWine = () => {
             <option value={client.cpf}>{client.nome}</option>
           ))}
       </select>
-      <h2 className={styles.wine}>{wine.produto}</h2>
-      <ul className={styles.list}>
-          <li>Variedade: {wine.variedade}</li>
-          <li>País: {wine.pais}</li>
-          <li>Categoria: {wine.categoria}</li>
-          <li>Safra: {wine.safra}</li>
-          <li>Preço: ${wine.preco}</li>
-          <li>Em estoque: {wine.total}</li>
-      </ul>
+          <h2 className={styles.wine}>{wine?.produto}</h2>
+          <ul className={styles.list}>
+            <li>Variedade: {wine?.variedade}</li>
+            <li>País: {wine?.pais}</li>
+            <li>Categoria: {wine?.categoria}</li>
+            <li>Safra: {wine?.safra}</li>
+            <li>Preço: ${wine?.preco}</li>
+            <li>Em estoque: {wine?.total}</li>
+          </ul>
     </div>
   );
 };
