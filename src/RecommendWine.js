@@ -50,7 +50,7 @@ if(wine){
   return (
     <div className={styles.all}>
       <h1 className={styles.title}>Recommend Wine</h1>
-      <select className={styles.options} onChange={handleChange}>
+      <select className={styles.names} onChange={handleChange}>
         {" "}
         {clients &&
           clients.map((client) => (

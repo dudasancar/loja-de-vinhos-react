@@ -1,6 +1,8 @@
 .all {
     height: 40rem;
     background: #A69898;
+    display: grid;
+    place-items: center;
 }
 
 .title {
@@ -11,10 +13,6 @@
     color: #2F252E;
 }
 
-.options {
-    width: 10rem;
-    height: 2rem;
-}
 
 .wine {
     text-align: center;
@@ -22,7 +20,7 @@
     color: #2F252E;
     font-style: italic;
     margin: 0;
-    padding-top: 6rem;
+    padding-top: 2rem;
 }
 
 .list {
@@ -32,4 +30,12 @@
     color: #2F252E;
     padding: 2rem;
     margin: 0;
+}
+
+.names {
+    width: 10rem;
+    height: 3rem;
+    background: #4036418a;
+    border-radius: 10px;
+    font-size: 1.2rem;
 }
