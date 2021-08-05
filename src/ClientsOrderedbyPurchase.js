@@ -13,8 +13,14 @@ const ClientsOrderedbyPurchase = () => {
             console.error("ops! ocorreu um erro" + err)
         })
     }, []);
+
+    function goBack() {
+        window.history.back()
+      }
+
     return (
         <div className={styles.all}>
+            <input type="button" value="←" onClick={goBack} className={styles.button}/>
             <h1 className={styles.title}>Clients Ordered by Purchase</h1>
             <div className={styles.divlist}>
             <ul className={styles.list}>

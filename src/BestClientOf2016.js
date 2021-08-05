@@ -13,13 +13,16 @@ const BestClientOf2016 = () => {
         })
     }, []);
 
+    function goBack() {
+        window.history.back()
+      }
+
     return (
         <div className={styles.all}>
-            <div className={styles.card}>
+            <input type="button" value="←" onClick={goBack} className={styles.button}/>
             <h1 className={styles.title}>Best Client of 2016: <span className={styles.name}>{cliente?.nome}</span></h1>
             <p className={styles.biggest}>Biggest Purchase</p>
             <p className={styles.total}>Total: {cliente?.valorTotal}</p>
-            </div>
         </div>
     )
 }

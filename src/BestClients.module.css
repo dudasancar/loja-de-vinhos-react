@@ -1,20 +1,31 @@
 .all {
-    height: 40rem;
+    height: 30rem;
     background: #A69898;
+    display: grid;
+    place-items: center;
 }
 
 .title {
     margin: 0;
-    padding-top: 4rem;
+    padding-top: 2rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #2F252E;
 }
 
 .list {
     list-style: none;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #2F252E;
-    padding: 2rem;
+    padding: 1rem;
+}
+
+.button {
+    background: #4036418a;
+    border-radius: 10px;
+    border: #4036418a;
+    height: 1rem;
+    width: 3rem;
+    cursor: pointer;
 }

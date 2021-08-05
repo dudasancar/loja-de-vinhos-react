@@ -25,6 +25,10 @@ const RecommendedWine = () => {
       });
   }
 
+  function goBack() {
+    window.history.back()
+  }
+
   console.log(wine);
   /* equivalentes
   if(wine){
@@ -49,6 +53,7 @@ if(wine){
 
   return (
     <div className={styles.all}>
+      <input type="button" value="←" onClick={goBack} className={styles.button}/>
       <h1 className={styles.title}>Recommend Wine</h1>
       <select className={styles.names} onChange={handleChange}>
         {" "}

@@ -1,14 +1,16 @@
 .all {
-    height: 25rem;
+    height: 21.6rem;
     background: #A69898;
+    display: grid;
+    place-items: center;
 }
 
 
 .title {
     margin: 0;
-    padding-top: 5rem;
+    padding-top: 2rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: #2F252E;
 }
 
@@ -28,7 +30,16 @@
 
 .total {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: #2F252E;
+}
+
+.button {
+    background: #4036418a;
+    border-radius: 10px;
+    border: #4036418a;
+    height: 1rem;
+    width: 3rem;
+    cursor: pointer;
 }
