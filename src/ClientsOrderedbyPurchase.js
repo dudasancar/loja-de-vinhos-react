@@ -1,6 +1,7 @@
 import React from 'react';
 import api from './services/api';
 import styles from './ClientsOrderedbyPurchase.module.css';
+import { Button } from 'antd';
 
 
 const ClientsOrderedbyPurchase = () => {
@@ -20,7 +21,7 @@ const ClientsOrderedbyPurchase = () => {
 
     return (
         <div className={styles.all}>
-            <input type="button" value="←" onClick={goBack} className={styles.button}/>
+            <Button type="primary" onClick={goBack} className={styles.button}>←</Button>
             <h1 className={styles.title}>Clients Ordered by Purchase</h1>
             <div className={styles.divlist}>
             <ul className={styles.list}>

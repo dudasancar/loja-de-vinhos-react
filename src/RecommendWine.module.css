@@ -32,10 +32,9 @@
     margin: 0;
 }
 
-.names {
+.select {
     width: 10rem;
     height: 3rem;
-    background: #4036418a;
     border-radius: 10px;
     font-size: 1.2rem;
 }

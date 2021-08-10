@@ -1,6 +1,7 @@
 import React from 'react';
 import api from './services/api';
 import styles from './BestClients.module.css';
+import { Button } from 'antd';
 
 const BestClients = () => {
     const [clients, setClients] = React.useState();
@@ -19,7 +20,7 @@ const BestClients = () => {
    
     return (
         <div className={styles.all}>
-         <input type="button" value="←" onClick={goBack} className={styles.button}/>
+         <Button type="primary" onClick={goBack} className={styles.button}>←</Button>
          <h1 className={styles.title}>Best Clients</h1>
          <ul className={styles.list}>
             {clients?.map(({nome}) => <li>{nome}</li>)}

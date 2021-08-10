@@ -1,6 +1,10 @@
 import React from "react";
 import api from "./services/api";
 import styles from "./RecommendWine.module.css";
+import { Button, Select } from "antd";
+import 'antd/dist/antd.css';
+
+const Option = Select.Option;
 
 const RecommendedWine = () => {
   const [clients, setClients] = React.useState();
@@ -53,15 +57,15 @@ if(wine){
 
   return (
     <div className={styles.all}>
-      <input type="button" value="←" onClick={goBack} className={styles.button}/>
+      <Button type="primary" onClick={goBack} className={styles.button}>←</Button>
       <h1 className={styles.title}>Recommend Wine</h1>
-      <select className={styles.names} onChange={handleChange}>
+      <Select className={styles.select} onChange={handleChange}>
         {" "}
         {clients &&
           clients.map((client) => (
-            <option value={client.cpf}>{client.nome}</option>
+            <Option value={client.cpf}>{client.nome}</Option>
           ))}
-      </select>
+      </Select>
           <h2 className={styles.wine}>{wine?.produto}</h2>
           <ul className={styles.list}>
             <li>Variedade: {wine?.variedade}</li>
